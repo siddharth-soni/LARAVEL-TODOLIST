@@ -62,17 +62,21 @@ The application maintains a status for each task, allowing tasks to be different
 
 🖥️ Application Screenshots
 
-🏠 To-Do List Dashboard
+### To-Do List Dashboard
 
-➕ Add / Create Task
+![To-Do List dashboard](screenshots/dashboard.png)
 
-✏️ Edit Task
+### Edit Confirmation
 
-📋 Task List
+![Edit confirmation dialog](screenshots/edit-confirmation.png)
 
-🗑️ Delete Task
+### Edit Task
 
-Note: Rename the screenshot filenames above to match the actual image filenames in the screenshots folder.
+![Edit task form](screenshots/edit-task.png)
+
+### Delete Confirmation
+
+![Delete confirmation dialog](screenshots/delete-confirmation.png)
 
 ⸻
 
