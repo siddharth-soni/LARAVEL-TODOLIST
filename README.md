@@ -1,66 +1,323 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+📝 Laravel To-Do List
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A simple and responsive To-Do List web application built with Laravel that allows users to manage their daily tasks efficiently.
 
-## About Laravel
+The application provides a clean interface for viewing, editing, updating, and deleting tasks. Each task can contain a title, description, and status, making it easy to keep track of pending and completed work.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+⸻
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+🚀 Project Overview
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The Laravel To-Do List is a CRUD-based task management application developed to demonstrate the core features of Laravel, including:
 
-## Learning Laravel
+* MVC architecture
+* Routing
+* Controllers
+* Eloquent ORM
+* Database migrations
+* Blade templates
+* Form handling
+* Validation and request handling
+* CRUD operations
+* Tailwind CSS
+* Vite asset bundling
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The project provides a straightforward interface where tasks can be managed from a central task list.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+⸻
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+✨ Features
 
-## Laravel Sponsors
+📋 Task Management
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+* View all available tasks
+* Create and manage task information
+* Add a task title
+* Add a detailed task description
+* Track task status
+* Edit existing tasks
+* Update task information
+* Delete tasks
+* Mark tasks according to their current status
 
-### Premium Partners
+✏️ Edit Tasks
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Each task can be opened through the edit functionality, allowing its:
 
-## Contributing
+* Title
+* Description
+* Status
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+to be updated.
 
-## Code of Conduct
+🗑️ Delete Tasks
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Tasks can be permanently removed from the application when they are no longer required.
 
-## Security Vulnerabilities
+📊 Task Status
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+The application maintains a status for each task, allowing tasks to be differentiated according to their current state.
 
-## License
+⸻
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+🖥️ Application Screenshots
+
+🏠 To-Do List Dashboard
+
+➕ Add / Create Task
+
+✏️ Edit Task
+
+📋 Task List
+
+🗑️ Delete Task
+
+Note: Rename the screenshot filenames above to match the actual image filenames in the screenshots folder.
+
+⸻
+
+🛠️ Technology Stack
+
+Technology	Purpose
+Laravel 11	Backend framework
+PHP 8.2+	Server-side programming
+Blade	Frontend templating
+Tailwind CSS	UI styling
+Vite	Frontend asset bundling
+Eloquent ORM	Database interaction
+MySQL / SQLite	Database
+Git & GitHub	Version control
+
+⸻
+
+🏗️ Project Structure
+
+LARAVEL-TODOLIST/
+│
+├── app/
+│   ├── Http/
+│   │   └── Controllers/
+│   │       └── ToDoListController.php
+│   │
+│   └── Models/
+│       └── ToDoList.php
+│
+├── bootstrap/
+│
+├── config/
+│
+├── database/
+│   ├── factories/
+│   ├── migrations/
+│   └── seeders/
+│
+├── public/
+│
+├── resources/
+│   ├── css/
+│   ├── js/
+│   └── views/
+│
+├── routes/
+│   └── web.php
+│
+├── storage/
+│
+├── tests/
+│
+├── screenshots/
+│
+├── artisan
+├── composer.json
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+
+⸻
+
+🔄 CRUD Operations
+
+The application follows the standard CRUD architecture.
+
+Create
+
+A new task can be added with:
+
+* Title
+* Description
+* Status
+
+Read
+
+The main page retrieves and displays the available tasks.
+
+Update
+
+Existing tasks can be edited and their information can be updated.
+
+Delete
+
+Tasks that are no longer required can be deleted from the application.
+
+⸻
+
+🧩 Laravel Architecture
+
+The application follows the Laravel MVC architecture.
+
+Model
+
+The ToDoList model is responsible for interacting with the task data stored in the database.
+
+Controller
+
+ToDoListController handles the application’s task-management logic, including:
+
+* Displaying tasks
+* Creating task records
+* Opening tasks for editing
+* Updating tasks
+* Deleting tasks
+
+Routes
+
+The application uses Laravel routes to connect HTTP requests with the appropriate controller methods.
+
+Example routes include:
+
+Route::get('/', [ToDoListController::class, 'index']);
+Route::get('/tasks/{id}/edit', [ToDoListController::class, 'edit']);
+Route::patch('/tasks/{id}', [ToDoListController::class, 'update']);
+Route::delete('/tasks/{task}', [ToDoListController::class, 'destroy']);
+
+⸻
+
+⚙️ Installation
+
+1. Clone the Repository
+
+git clone https://github.com/siddharth-soni/LARAVEL-TODOLIST.git
+
+2. Navigate to the Project
+
+cd LARAVEL-TODOLIST
+
+3. Install PHP Dependencies
+
+composer install
+
+4. Install Frontend Dependencies
+
+npm install
+
+5. Create Environment File
+
+cp .env.example .env
+
+6. Generate Application Key
+
+php artisan key:generate
+
+7. Configure Database
+
+Open the .env file and configure your database connection.
+
+For MySQL:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
+
+8. Run Database Migrations
+
+php artisan migrate
+
+9. Start Vite
+
+npm run dev
+
+10. Start Laravel Server
+
+Open another terminal and run:
+
+php artisan serve
+
+The application will normally be available at:
+
+http://127.0.0.1:8000
+
+⸻
+
+💻 Development
+
+For frontend development:
+
+npm run dev
+
+For production asset compilation:
+
+npm run build
+
+To start the Laravel development server:
+
+php artisan serve
+
+⸻
+
+📌 Main Functionality
+
+The application currently provides the following task-management flow:
+
+User
+ │
+ ▼
+To-Do List
+ │
+ ├── View Tasks
+ │
+ ├── Edit Task
+ │     ├── Update Title
+ │     ├── Update Description
+ │     └── Update Status
+ │
+ └── Delete Task
+
+⸻
+
+🎯 Purpose of the Project
+
+This project was developed as a practical Laravel application to demonstrate how a task-management system can be built using Laravel’s MVC architecture and CRUD functionality.
+
+It also provides hands-on experience with:
+
+* Laravel routing
+* Controllers
+* Eloquent models
+* Database migrations
+* Blade templates
+* HTTP methods
+* Form processing
+* Tailwind CSS
+* Vite
+* Git and GitHub
+
+⸻
+
+👨‍💻 Author
+
+Siddharth Soni
+
+GitHub:
+https://github.com/siddharth-soni
+
+Repository:
+https://github.com/siddharth-soni/LARAVEL-TODOLIST
+
+⸻
+
+📄 License
+
+This project is open-sourced under the MIT License.
